@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="title">What's your favorite Pokemon</h1>
+      <p id="description">let us know what is your favorite Pokemon</p>
+    </header>
+
+    <main id="main">
+      <form id="survey-form" action="">
+        <div id="personal-info">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" name="" type="text" value="" placeholder="Name" required />
+
+          <label id="email-label" for="email">Email</label>
+          <input id="email" name="" type="email" value="" placeholder="Email" required />
+
+          <label id="number-label" for="number">Age (optional)</label>
+          <input id="number" name="" type="number" value="" min="12" max="100" placeholder="Age" required />
+        </div>
+
+        <div id="pokemon-game">
+          <span class="op-title">What's your favorite game</span>
+
+          <select id="dropdown" name="">
+            <option value="pokemon1">Pokemon1</option>
+            <option value="pokemon2">Pokemon2</option>
+            <option value="pokemon3">Pokemon3</option>
+            <option value="pokemon4">Pokemon4</option>
+            <option value="pokemon5">Pokemon5</option>
+          </select>
+        </div>
+
+        <div class="optional">
+          <span class="op-title">Select your Pokemon element</span>
+
+          <input name="op" type="radio" value="fire" checked />
+          <label class="op-label" for="op">Fire</label>
+
+          <input name="op" type="radio" value="water" />
+          <label class="op-label" for="op">Water</label>
+
+          <input name="op" type="radio" value="air" />
+          <label class="op-label" for="op">Air</label>
+
+          <input name="op" type="radio" value="Earth" />
+          <label class="op-label" for="op">Earth</label>
+        </div>
+
+        <div class="optional">
+          <span class="op-title">Optional Answers</span>
+
+          <input class="op" type="checkbox" value="high" />
+          <label class="op-label" for="op">Is a High Level Pokemon?</label>
+
+          <input class="op" type="checkbox" value="evo" />
+          <label class="op-label" for="op">Is evolutioned?</label>
+        </div>
+
+        <div id="add-info">
+          <span class="op-title">Aditional Informaton</span>
+
+          <textarea
+            cols="30"
+            id=""
+            name=""
+            rows="10"
+            placeholder="Enter your comment here!"
+          ></textarea>
+        </div>
+
+        <button id="submit">Send</button>
+      </form>
+    </main>
+  </body>
+</html>

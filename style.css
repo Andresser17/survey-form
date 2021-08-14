@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header {
+    padding: 2em;
+    margin-bottom: 15px;
+}
+
+#description {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#main {
+    background: rgba(52, 73, 94, .8);
+    padding: 30px;
+    max-width: 600px;
+    color: #fff;
+}
+
+#personal-info {
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    font-size: 16px;
+    width: 100%;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.optional {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.op-title {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.optional input {
+    width: 5%;
+    margin: 10px 0;
+}
+
+.optional .op-label {
+    width: 95%;
+    margin: 10px 0;
+}
+
+#add-info {
+    width: 100%;
+}
+
+#add-info textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#submit {
+    background-color: #27ae60;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+}
